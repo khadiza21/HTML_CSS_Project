@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 25px;
+  max-width: 370px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  position: relative;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36%;
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+    background-color:rgb(255, 185, 8) ;
+}
+.image {
+  position: relative;
+  background-color: rgb(255, 185, 8);
+  padding: 3px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: rgb(255, 185, 8);
+  object-fit: cover;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  font-weight: bold;
+  font-size: xx-large;
+}
+.job {
+  font-weight: bold;
+  font-size: large;
+}
+.mediaButton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.mediaButton a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 35px;
+  font-size: 18px;
+  color: #ffffff;
+  width: 35px;
+  padding: 10px;
+  margin: 0 8px;
+  background-color: aqua;
+  text-decoration: none;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin: 5px;
+}
+.btn button {
+  padding: 8px 24px;
+  margin: 4px;
+  background-color: rgb(255, 185, 8);
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.btn button:hover {
+  background-color: rgb(235, 166, 17);
+}
+.analytics {
+  display: flex;
+  align-items: center;
+ margin-top: 20px;
+}
+.analytics div{
+    display: flex;
+    align-items: center;
+   color: #333;
+   padding: 0% 20px;
+   border-right: 2px solid #e7e7e7;
+}
+.analytics div i {
+    font-size: 18px;
+    margin-right: 6px;
+}
+.analytics div:last-child{
+border-right: none;
+}
