@@ -8,10 +8,10 @@
   box-sizing: border-box;
 }
 body {
-    min-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* background-color: #f4f4f4; */
 }
 
@@ -99,49 +99,47 @@ justify-content: center;
 }
 
 @media (max-width: 768px) {
-    body{
-        min-height: 150vh;
-    }
-    .aboutSection {
-        flex-direction: column;
-        text-align: center;
-    }
+  body {
+    min-height: 150vh;
+  }
+  .aboutSection {
+    flex-direction: column;
+    text-align: center;
+  }
 
-   .sideImgSection, .sideInfoSection {
-        width: 100%;
-        padding: 0;
-        margin-bottom: 30px;
-    }
-   .sideImgSection {
-        width: 90%;
-       
-       
-    }
+  .sideImgSection,
+  .sideInfoSection {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .sideImgSection {
+    width: 90%;
+  }
 
-    .sideImgSection img {
-        width: 100%;
-    }
- 
-    .sideInfoSection h1 {
-        font-size: 28px;
-    }
+  .sideImgSection img {
+    width: 100%;
+  }
 
-    .sideInfoSection h3 {
-        font-size: 20px;
-    }
+  .sideInfoSection h1 {
+    font-size: 28px;
+  }
 
-    .sideInfoSection p {
-        font-size: 14px;
-    }
+  .sideInfoSection h3 {
+    font-size: 20px;
+  }
 
-    .btns button {
-        width: 100%;
-        margin-bottom: 10px;
-    } 
+  .sideInfoSection p {
+    font-size: 14px;
+  }
+
+  .btns button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
-
-    /* @media only screen and (max-width: 1200px){
+/* @media only screen and (max-width: 1200px){
         Tablets [601px -> 1200px]
     }
     @media only screen and (max-width: 600px){

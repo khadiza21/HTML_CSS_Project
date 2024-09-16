@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0E1629;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aboutMe {
+  width: 80%;
+}
+
+.aboutContainer {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.imageRight h3{
+font-size: 25px;
+margin: 15px 0;
+
+}
+
+.imageRight span{
+color: #07A8ED;
+}
+
+.imageRight h1{
+  font-size: 35px;
+  margin: 15px 0;
+}
+
+.imageRight p{
+  margin: 15px 0;
+  color: gray;
+
+}
+
+.imageSide {
+  padding: 15px;
+  font-weight: bold;
+  
+ 
+}
+
+.imageSide img {
+  width: 100%;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 1px 1px 1px 1px rgba(15, 129, 236, 0.822),
+  1px 1px 1px 1px rgba(15, 129, 236, 0.822),
+  1px 1px 1px 1px rgba(15, 129, 236, 0.822),
+  1px 1px 1px 1px rgba(15, 129, 236, 0.822);
+}
+.imageSide img:hover{
+  box-shadow: 1px 1px 1px 1px #341f97,
+  1px 1px 1px 1px #341f97,
+  1px 1px 1px 1px #341f97,
+  1px 1px 1px 1px #341f97;
+}
+
+.imageRight {
+ color: whitesmoke;
+  margin: 15px 0;
+  padding: 25px 30px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.aboutBtn {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 24px;
+  border: none;
+  background-color: #07A8ED;
+  color: white;
+  font-weight: bold;
+ 
+
+}
+.aboutBtn:hover{
+  background-color: #0168FB;
+   transform: scale(1.1);
+
+}
