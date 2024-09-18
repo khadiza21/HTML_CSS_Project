@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  border: 3px solid black;
+ 
+  
+}
+
+#award {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+#award .award-container {
+  width: 80%;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+#award .award-container h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 30px 0;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+#award .award-container .image-box {
+  display: flex;
+  gap: 4px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+#award .award-container .image-box img {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+}
