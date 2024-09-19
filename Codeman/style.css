@@ -1,3 +1,8 @@
+/* #fefdfd 
+#FF5705
+#8D02CF;
+#f9f9f9 */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,45 +10,33 @@
   background-color: #fefdfd;
 }
 
-#youtubeVideo,
-#marketplace,
-#aboutCeo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.container {
-  width: 80%;
-  padding: 10px;
-  margin: 10px;
-}
 h1 {
   text-align: center;
   font-size: 40px;
   color: #ff5705;
-  font-weight: bold;
-  padding: 20px 0;
-  margin: 20px 0;
+  font-weight: 700;
+  margin: 30px 0;
+  padding: 20px 5px;
 }
 h3 {
   font-size: 30px;
   color: #ff5705;
-  font-weight: bold;
-  padding: 20px 0;
+  font-weight: 700;
   margin: 20px 0;
 }
 p {
   font-size: 20px;
   color: gray;
+  font-weight: 700;
+  margin: 20px 0;
 }
-
 button {
   padding: 15px 25px;
-  margin: 20px 0;
   border-radius: 24px;
   border: none;
   background-color: #8d02cf;
   color: whitesmoke;
+  margin: 10px 0;
   font-weight: bold;
   transition: 0.4s ease;
 }
@@ -51,30 +44,47 @@ button:hover {
   background-color: #ff5705;
 }
 
-#youtubeVideo .container {
+#youtube,
+#marketPlace,
+#aboutCeo {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  margin: 10px;
+  margin: 20px 0;
+  padding: 20px 0;
 }
-#youtubeVideo .container iframe {
+.container {
+  width: 80%;
+
+  margin: 0 auto;
+}
+/* .marketList .aboutBox */
+
+#youtube .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#youtube .container iframe {
+  margin: 10px;
   border-radius: 10px;
 }
 
-#marketplace .container .market-list {
+#marketPlace .container .marketList {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-#marketplace .container .market-list img {
+
+#marketPlace .container .marketList img {
   width: 100%;
   height: 100px;
-  background-color: #f9f9f9;
-  padding: 20px 20px;
-  box-shadow: 0px 3px 75px 20px rgba(0, 0, 0, 0.08);
   border-radius: 6px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 75px 20px rgba(219, 214, 214, 0.8);
 }
+
 #aboutCeo .container .aboutBox {
   display: flex;
   align-items: center;
@@ -88,7 +98,8 @@ button:hover {
   padding: 10px;
   margin: 10px;
 }
-#aboutCeo .container .aboutBox .left img {
+#aboutCeo .container .aboutBox .left,
+img {
+  border-radius: 10px;
   width: 100%;
-  border-radius: 5px;
 }
