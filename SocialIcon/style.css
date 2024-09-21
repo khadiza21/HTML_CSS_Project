@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#socialIcon {
+  background-color: #182c61;
+  border: 2px solid black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#socialIcon .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#socialIcon .container .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  margin: 20px 10px;
+}
+#socialIcon .container .icon i {
+  border: 2px solid whitesmoke;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  font-size: 30px;
+  color: #fff;
+  transition: 0.5s ease;
+}
+#socialIcon .container .icon i:hover {
+  background-color: whitesmoke;
+  color: #182c61;
+  transform: rotateX('angle');
+}
